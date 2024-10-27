@@ -6,7 +6,8 @@ on:
   pull_request:
 
 jobs:
-  Explore GitHub Actions:
+  Explore-GitHub-Actions:
+    run-name: Explore Github Actions
     runs-on: ubuntu-latest
     steps:
       - run: echo "The job was automatically triggered by a ${{ github.event_name }} event."
